@@ -94,3 +94,38 @@ export const LoginContainer = styled.div`
     }
 
 `
+
+export const ErrorLoginContainer = styled.div`
+
+    width: 22rem;
+    height: 6rem;
+
+    border: 1.5px red solid;
+    border-radius: 9px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -4rem;
+
+    h3 {
+        margin-left: 2.5rem;
+        margin-right: auto;
+        color: red;
+        margin-top: 1rem;
+        margin-bottom: -0.5rem;
+        font-weight: 500;
+    }
+
+    p {
+        margin-left: auto;
+        margin-right: auto;
+
+        width: 17rem;
+    }
+    
+`
